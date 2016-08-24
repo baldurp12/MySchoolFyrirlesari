@@ -1,0 +1,74 @@
+.ruTable
+{	
+ /*background:transparent url(HR4\hbox-top.png) repeat-x scroll 0 27px; */
+}
+.ruTableTitle
+{
+	FONT-WEIGHT: bold;
+	/* font-size: 1.1em;*/
+	padding-bottom: 9px;
+	PADDING-LEFT: 4;
+	PADDING-RIGHT: 4;
+/*	COLOR: #000066;*/
+	COLOR: black;
+	BORDER-BOTTOM: #c0c0c0 1px solid;
+	BORDER-TOP: #c0c0c0 1px solid;
+}
+.ruTableTitle a
+{color:#D6222B;}
+
+
+.ruTableRow1
+{
+	BORDER-TOP: #c0c0c0 1px solid;
+	BORDER-BOTTOM: #c0c0c0 1px solid;
+	BACKGROUND-COLOR: #ffffff;
+	COLOR: black;
+	PADDING-LEFT: 4;
+	PADDING-RIGHT: 4;
+}
+.ruTableRow2
+{	BACKGROUND-COLOR: #f5f5f5;
+border-top:2px solid #7C7C7C;
+	PADDING-LEFT: 4;
+	PADDING-RIGHT: 4;	
+}
+.ruTableBordersText
+{
+	BORDER-TOP:   #ccc 1px Solid;
+	BORDER-RIGHT: #ccc 1px Solid;
+	PADDING-LEFT: 4;
+	PADDING-RIGHT: 4;	
+}
+.ruTableBordersTextWrap
+{
+	BORDER-TOP:   #808080 1px Solid;
+	BORDER-RIGHT: #808080 1px Solid;
+	PADDING-LEFT: 4;
+	PADDING-RIGHT: 4;	
+}
+.ruTableBordersMax
+{
+	BORDER-TOP:   #808080 1px Solid;
+	BORDER-RIGHT: #808080 1px Solid;
+	PADDING-LEFT: 4;
+	PADDING-RIGHT: 4;
+}
+.ruTableTextTitle
+{	FONT-WEIGHT: bold;}
+
+.ruTableText
+{	padding: 0 5px;}
+
+.ruTableTitle
+{
+	border-top:2px solid #7C7C7C;
+	color:#D6222B;
+	text-transform: uppercase;
+	padding: 5px 5px 9px 5px;
+	/* font-size: 1.1em; */
+}
+
+.ruTable td
+{    padding: 0 5px;}
+

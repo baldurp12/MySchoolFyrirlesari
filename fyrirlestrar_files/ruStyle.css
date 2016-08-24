@@ -1,0 +1,557 @@
+/* -------------------- Staðlað----------------------------*/
+@media print 
+{ 
+	BODY            {font-size: 12pt; margin: 1px 1px 1px 1px; }
+	div.ruHeader    {display: none;} 
+	div.ruFooter    {display: none;} 
+	div.ruLeft      {display: none;}
+	table td.ruLeft {border:solid 4px blue;} 
+	div.ruRight     {display: none;} 
+	div.ruTabs      {display: none;} 
+	div.ruNotPrintable {display: none;}
+	div.ruPrintable {display: block;}
+	blockquote, 
+	pre           { page-break-inside: avoid; }
+	#menu-area-left {display: none;}
+	#menu-area-right {display: none;}
+/*	div.ruLandscape       { writing-mode: tb-rl; margin: 10% 10% 10% 10%; width: 400px;} 
+	div.ruLandscape table { filter: progid:DXImageTransform.Microsoft.BasicImage(Rotation=1);}
+*/
+}
+
+@media screen {	div.ruPrintable {display: none;}}
+@media all { #menu li a {   vertical-align: top; }}	/* Fixes extra spacing bug in IE mac */
+div.printlogo	{display: none;}
+
+
+/* -------------------- óstaðlað----------------------------*/
+BODY
+{
+    BACKGROUND-COLOR: white;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 75%;
+}
+p, table { font-size: 1em; }
+
+A
+{
+    COLOR: black;
+}
+
+A:hover
+{
+    TEXT-DECORATION: underline
+}
+A:link
+{
+    COLOR: #000000;
+}
+A:active
+{
+    COLOR: #666666;
+}
+IMG
+{
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    BORDER-LEFT: 0px;
+    BORDER-BOTTOM: 0px
+}
+
+/* ------------------------------------------------*/
+.ruHeader
+{
+	FONT-SIZE: 10px;
+	COLOR: black;
+	FONT-WEIGHT: normal;
+	BACKGROUND-COLOR: #FFFFFF;
+}
+.ruHeader_left
+{
+	padding-left: 25px;
+}
+.ruHeader_User
+{
+ 	FONT-SIZE: 10px;
+ 	text-align: right;
+ 	PADDING-RIGHT: 10px;
+}
+.ruHeader_right
+{
+	WIDTH: 120px;
+	padding-top: 30px;
+	padding-bottom: 5px;
+}
+
+.ruHeader_right a
+{
+	font-size: 1.2em;
+	color: #505EA2;
+	font-weight: bold;
+}
+
+.ruHeaderLine
+{
+	HEIGHT: 7px;
+	BACKGROUND-COLOR: black;
+}
+
+/* ------------------------------------------------*/
+.ruPage
+{
+   WIDTH: 100%;
+   BACKGROUND-COLOR: white
+}
+
+/* ------------------------------------------------*/
+.ruFooter
+{
+	border-top: 3px solid rgb(179, 179, 179);
+	padding: 10px;
+	color: rgb(86, 86, 86);
+	font-weight: bold;
+	font-size: 0.9em;
+}
+.ruFooter a {
+	color: rgb(86, 86, 86);
+}
+
+/* ------------------------------------------------*/
+.ruMenuHeaderLeft  /*Ónotað hjá IR*/
+{
+	PADDING-RIGHT: 0px;
+	BACKGROUND-POSITION: left top;
+	FONT-WEIGHT: bold;
+	PADDING-BOTTOM: 0px;
+	COLOR: black;
+	PADDING-TOP: 10px;
+	WIDTH: 190px;
+	/*HEIGHT: 20px;*/
+}
+.ruMenuBodyLeft
+{
+	PADDING: 3px 0px 0px 0px;
+}
+A.ruMenuLinkLeft
+{
+	COLOR: black;
+	TEXT-DECORATION:  none;
+}
+A.ruMenuLinkLeft:link
+{
+	COLOR: black;
+	TEXT-DECORATION:  none;
+}
+A.ruMenuLinkLeft:visited
+{
+	COLOR: #555555;
+	TEXT-DECORATION:  none;
+}
+A.ruMenuLinkLeft:active
+{
+	COLOR: #666666;
+	TEXT-DECORATION:  none
+}
+A.ruMenuLinkLeft:hover
+{
+	COLOR: black;
+	TEXT-DECORATION:  underline;
+}
+
+/* ------------------------------------------------*/
+.ruMenuHeaderRight	/*Ónotað hjá IR*/
+{
+   /*BORDER-RIGHT: #669966 0px solid;
+	BORDER-TOP: #669966 0px solid;
+	BORDER-LEFT: #669966 0px solid;
+	BORDER-BOTTOM: #c1c1c1 0px solid; */
+	PADDING-RIGHT: 0px;
+	BACKGROUND-POSITION: left top;
+	/*PADDING-LEFT: 10px;*/
+	FONT-WEIGHT: bold;
+	PADDING-BOTTOM: 0px;
+	WIDTH: 150px;
+	COLOR: black;
+	PADDING-TOP: 10px;
+}
+.ruMenuBodyRight
+{
+	PADDING: 3px 0px 0px 0px;
+}
+A.ruMenuLinkRight
+{
+	COLOR: black;
+	TEXT-DECORATION:  none
+}
+A.ruMenuLinkRight:link
+{
+	COLOR: black;
+	TEXT-DECORATION:  none
+}
+A.ruMenuLinkRight:visited
+{
+	COLOR: #555555;
+	TEXT-DECORATION:  none;
+}
+A.ruMenuLinkRight:active
+{
+	COLOR: #666666;
+	TEXT-DECORATION:  none;
+}
+A.ruMenuLinkRight:hover
+{
+	COLOR: black;
+	TEXT-DECORATION:  underline;
+}
+
+/* ------------------------------------------------*/
+FORM
+{
+	BORDER-RIGHT: 0px;
+	PADDING-RIGHT: 0px;
+	BORDER-TOP: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	BORDER-LEFT: 0px;
+	PADDING-TOP: 0px;
+	BORDER-BOTTOM: 0px
+}
+INPUT, SELECT
+{
+	/*FONT-SIZE: xx-small;*/
+	COLOR: #333333;
+}
+TEXTAREA
+{
+	/*FONT-SIZE: xx-small;*/
+	BACKGROUND: #ffffff;
+	COLOR: #333333;
+}
+
+
+/* ------------------------------------------------ */
+.ruPanelsLabel
+{
+	FONT-WEIGHT: bold;
+}
+.ruPanelsMsg
+{
+	COLOR: red;
+	BACKGROUND-COLOR: #f5f5f5;
+}
+.ruPanels
+{
+	background:transparent url(hbox-top.png) repeat-x scroll 0 27px;
+	COLOR: black;
+}
+.ruPanelsTitle
+{
+	/*border-top:2px solid #7C7C7C;*/
+	color:#D6222B;
+	FONT-WEIGHT: bold;
+	text-transform: uppercase;
+	padding: 5px 5px 9px 5px;
+ 	text-align: left;
+	/* font-size: 1.1em; */
+}
+
+/* ------------------------------------------------ */
+.ruContent
+{
+	FONT-SIZE: 1.4em;
+	COLOR: #000;
+}
+.ruContentUnderline1
+{
+	BACKGROUND-COLOR: #AAAAAA;
+	HEIGHT: 1px;
+}
+.ruContentUnderline2
+{
+	BACKGROUND-COLOR: #666666;
+	HEIGHT: 1px;
+}
+
+
+/* ------------------------------------------------*/
+#ruTabsNewcontainer {
+	border-bottom: 1px solid #D6DEDE;
+	margin: 0;
+}
+
+.ruTabsUnderLine
+{
+	/*BORDER-BOTTOM: #A3AEC2 1px Solid;*/
+	BORDER-BOTTOM: #666666 1px Solid;
+}
+
+
+.ruTabsUnderLineActive
+{
+	BORDER-BOTTOM: #FFFFFF 1px Solid;
+}
+
+a.ruTabs
+{
+	font-size: 11px;
+	COLOR: black;
+	text-decoration: none;
+}
+a.ruTabs:hover
+{
+	color: #7685AF;
+	font-size: 11px;
+	text-decoration: none;
+}
+.ruTabsActive
+{
+	font-size: 11px;
+}
+.ruTabsInactive
+{
+	font-size: 11px;
+	color: #999;
+}
+A.ruTabs:visited
+{
+	FONT-SIZE: 11px;
+}
+A.ruTabs:active
+{
+	FONT-SIZE: 11px;
+}
+
+H3
+{
+	FONT-SIZE: 15px;
+}
+H4
+{
+	FONT-SIZE: 15px;
+}
+
+/* ------------------------------------------ */
+
+.ruLeft {
+	border-right: 1px solid #CECECE;
+	WIDTH: 147px;
+	vertical-align: top;
+}
+
+.ruRight {
+	border-left:  1px solid #CECECE;
+	WIDTH: 147px;
+	vertical-align: top;
+}
+
+#menu-area-right
+{
+	height: 100%;
+}
+
+#menu-areas-left
+{
+	height: 100%;
+	background-color: #B2B2B2;
+}
+
+.menuStyle-first
+{
+	text-decoration: none;
+	width: 140px;
+	margin-top: 5px;
+}
+
+.menuStyle
+{
+	text-decoration: none;
+	width: 140px;
+	margin-top: 10px;
+}
+
+a.mainMenu		
+{
+	TEXT-ALIGN: left;
+	color: #D6222B;
+	font-size: 1.2em;
+	font-weight: bold;
+	WIDTH: 130px;
+	HEIGHT: 100%;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a.mainMenu:hover
+{
+	text-decoration: none;
+}
+
+a.mainMenu:visited
+{
+	color: #000000;
+}
+
+.mainMenu_cell
+{
+	height: 23px;
+	background: #FFFFFF;
+	border-bottom: 1px solid #7C7C7C;
+}
+
+a.subMenu
+{
+	color: #000000;
+	font-size: 1.0em;
+	text-decoration: none;
+}
+
+a.subMenu:hover
+{
+	text-decoration: underline;
+}
+
+a.subMenu:visited
+{
+	color: #000000;
+}
+
+a.subMenu_selected
+{
+	background:transparent url(icn-sprite.png) no-repeat scroll 0px 4px;
+	color: #D6222B;
+	padding-left: 8px;
+	font-size: 1.0em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.subMenu_selected:visited
+{
+	color: #D6222B;
+}
+
+.subMenu_selected_cell
+{
+	height: 20px;
+	background: #FFFFFF;
+	border-bottom: 1px solid #ddd;
+}
+
+.subMenu_cell
+{
+	height: 20px;
+	background: #FFFFFF;
+	border-bottom: 1px solid #ddd;
+}
+
+.menuContent
+{
+	visibility: visible;
+	display: inline;
+}
+
+td.userinfo h3 { font-size: 1.2em; margin: 0; }
+.ruHeader p { margin: 0; } 
+.ruHeader { font-size: 1.2em; }
+.hidden { display: none; }
+
+.ruSep { background-color: #d6222b; padding: 2px; }
+
+.mnav .boxhead {
+left:auto;
+position:absolute;
+right:9999px;
+}
+.mnav .boxbody {
+padding:0;
+}
+.mnav ul {
+float:right;
+list-style: none;
+margin: 0;
+}
+.mnav li {
+float:left;
+margin-left:-5px;
+}
+.mnav .boxbody a {
+color:#7C7C7C;
+display:block;
+font-size:1em;
+font-weight:bold;
+padding:16px 21px 6px;
+text-transform:uppercase;
+text-decoration: none;
+}
+.wrap .mnav a:hover, .wrap .mnav a:focus, .wrap .mnav a:active {
+color:#CC0000;
+text-decoration:none;
+}
+.mnav li.hover, .mnav .parent, .mnav .current {
+background:transparent url(mnav-left.png) no-repeat scroll 0 0;
+}
+.mnav li.hover a, .mnav .parent a, .mnav .current a {
+background:transparent url(mnav-right.png) no-repeat scroll 100% 0;
+color:#CC0000;
+}
+
+li.cat5 { margin-left: 60px; }
+
+
+.qnav {
+float:right;
+min-height:29px;
+position:relative;
+z-index:10;
+}
+.qnav .boxhead {
+left:auto;
+position:absolute;
+right:9999px;
+}
+.qnav ul {
+background:transparent url(pe3-sep.png) no-repeat scroll 100% 0;
+overflow:hidden;
+padding-right:2px;
+list-style: none;
+margin: 0;
+}
+.qnav li {
+background:transparent url(pe3-sep.png) no-repeat scroll 0 0;
+float:left;
+min-height:29px;
+padding-left:2px;
+text-align:center;
+}
+.qnav .boxbody span.cat {
+color:#9F9F9F;
+display:block;
+padding:8px 12px 10px;
+}
+.qnav .parent a, .qnav .current a {
+font-weight:bold;
+}
+
+
+#personname { 
+	float:left;
+	color: #fff;
+	font-size: 1em;
+	margin: 2px 10px;
+}
+#personname span {
+	font-weight: bold;
+}
+.timetable-selected { background-color: #D6222B; }
+.timetable-past { background-color: silver; }
+
+#ruTabsNewcontainer 			{ background:transparent url(tabborder.gif)         repeat scroll left top;}
+#ruTabsNewcontainer a span		{ background:transparent url(tab_gray_right.gif) no-repeat scroll right top; color: black}
+#ruTabsNewcontainer a			{ background:transparent url(tab_gray_left.gif)  no-repeat scroll left  top; }
+#ruTabsNewcontainer #current a span	{ background:transparent url(tab_gray_right.gif)  no-repeat scroll right top; background-position:100% -42px; font-weight: bold; color: #D6222B; }
+#ruTabsNewcontainer #current a		{ background:transparent url(tab_gray_left.gif)   no-repeat scroll left  top; background-position:0%   -42px; font-weight: bold; color: #D6222B; }
+#ruTabsNewcontainer a:hover span 	{ background:transparent url(tab_gray_right.gif)  no-repeat scroll right top; background-position:100% -42px; color: #D6222B; }
+#ruTabsNewcontainer a:hover 		{ background:transparent url(tab_gray_left.gif)   no-repeat scroll left  top; background-position:0%   -42px; color: #D6222B; }
+#englishbtn   { background: transparent url(english.png) no-repeat top right; padding-right: 20px; }
+#icelandicbtn { background: transparent url(icelandic.png) no-repeat top right; padding-right: 20px; }

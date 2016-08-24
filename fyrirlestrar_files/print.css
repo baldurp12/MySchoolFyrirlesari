@@ -1,0 +1,183 @@
+/* Fonts */
+ADDRESS, BLOCKQUOTE, BODY, CAPTION, CENTER, DD, DIR, DIV, DL, DT, FORM, LI, MENU, OL, P, PRE, TD, TH, TR, UL, SMALL
+{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 8pt;
+ color: #000;
+}
+
+ADDRESS { font-style: italic; }
+BIG { font-size: 14pt; }
+CITE { font-style: italic; }
+CODE, KBD, SAMP, TT { font: 12pt "andale mono", courier, monospaced; }
+DT { font-weight: bold; }
+H1, H2, H3, H4, H5, H6	{ font-weight: bold;
+ font-family: Arial, Helvetica, sans-serif;
+ color: #586d9d;
+}
+IMG { border: 0; }
+.menutable		{display: none;}
+#menu-area-left	{display: none;}
+#menu-area-right{display: none;}
+.ruHeader	{display: none;} 
+div.printlogo	{display: inline;}
+div.ruFooter    {display: none;} 
+div.ruLeft      {display: none;} 
+div.ruRight     {display: none;} 
+div.ruTabs      {display: none;}  
+div.ruNotPrintable {display: none;}
+div.ruPrintable {display: block;}
+blockquote, 
+pre           { page-break-inside: avoid; }
+
+HTML {
+ margin: 0;
+ padding: 0;
+}
+
+PRE {
+ margin-left: 0;
+ white-space: pre;
+}
+
+SMALL, SUB, SUP	{ font-size: 8pt; }
+TD	{ margin-left: 0; }
+
+TH {	font-weight: bold;
+	text-align: left;
+	margin-left: 0;
+}
+A { 
+	color: black;
+	text-decoration: underline;
+}
+/* ***************************************************************************** */
+/* Top section of page */
+.printonly {
+ padding: 0;
+ margin: 0;
+ display: block;
+}
+.printlogo {
+ padding: 0pt 0pt 25pt 0pt;
+}
+
+#top { display: none; }
+
+/* ***************************************************************************** */
+/* Middle section of page */
+#midsection
+{
+ margin: 0;
+}
+#content h1, #content h2, #content h3
+{
+ margin: 0;
+ padding: 0 0 6pt 0;
+}
+
+#content h1	{
+ color:#000;
+}
+
+#breadcrumbs {
+ display: none;
+}
+/* ----------------------------------------------------------------------------- */
+/* Left Navigation (metal) Menu - Level <= 3*/
+.menutable { display: none; width:0pt; }
+#menu { display: none; width:0pt; }
+
+/* ----------------------------------------------------------------------------- */
+/* Content areas of page */
+#content {
+ margin: 0;
+ padding: 0;
+ }
+
+/* ----------------------------------------------------------------------------- */
+/* styles for the vertical divider line (table cell) */
+.divider {
+ display: none; width:0pt; 
+}
+
+/* ----------------------------------------------------------------------------- */
+/* Styles for right sidebar */
+.sidebar {
+ width: 160px;
+ padding: 44px 0 0 0;
+}
+
+.sidebar p { margin: 0 0 12px 0; }
+
+.caption {
+ font-size: 10pt;
+ font-weight: bold;
+ color: #666666;
+}
+/* ----------------------------------------------------------------------------- */
+/* Link to top of page */
+.toplink { display: none; }
+/* ***************************************************************************** */
+/* Bottom section of page */
+/* ----------------------------------------------------------------------------- */
+/* The blue bar at the foot of the page */
+.footbar { display: none; }
+/* ----------------------------------------------------------------------------- */
+/* The maintainer/author and legal info at foot of page */
+.footer {
+ border-top: 1px solid #666;
+ width: 50%;
+ vertical-align: top;
+}
+
+.footer p {
+ font-size: 6pt;
+ color: #666666
+ padding: 6px 0 0 0;
+}
+
+.footer p a {
+ color: #666;
+ text-decoration: underline;
+}
+
+.customfootbar {
+ display: none;
+}
+.ruTablesBordersTextWrap {
+	BORDER-TOP:   #808080 1px Solid;
+	BORDER-RIGHT: #808080 1px Solid;
+	WORD-WRAP: break-word;
+    	PADDING-LEFT: 2;
+    	PADDING-RIGHT: 2;	
+}
+.ruTablesBordersText {
+	BORDER-TOP:   #808080 1px Solid;
+	BORDER-RIGHT: #808080 1px Solid;
+    	PADDING-LEFT: 2;
+    	PADDING-RIGHT: 2;
+}
+
+.ruTables {
+    BORDER-RIGHT:  #c0c0c0 1px solid;
+    BORDER-TOP:    #c0c0c0 1px solid;
+    BORDER-LEFT:   #c0c0c0 1px solid;
+    BORDER-BOTTOM: #c0c0c0 1px solid;
+    BACKGROUND-COLOR: #f1f1f1;
+}
+
+.ruTableTitle {
+ 	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	FONT-WEIGHT: bold;
+	PADDING-LEFT: 2;
+	PADDING-RIGHT: 2;
+	COLOR: #000066;
+	BACKGROUND-COLOR: #f1f1f1;
+}
+
+.ruContent {
+	FONT-SIZE: 9pt;
+	COLOR: #000066;
+	FONT-WEIGHT: bold;
+}

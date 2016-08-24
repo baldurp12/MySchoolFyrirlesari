@@ -1,0 +1,63 @@
+
+
+
+<a href="http://youtu.be/g3hekcLxoHQ"target="_blank">L01 Introduction to Enterprise Software Part 1</a>
+<a href="http://youtu.be/c8XPw9yL0vM"target="_blank">L01 Introduction to Enterprise Software Part 2</a>
+<a href="https://youtu.be/QJWnTCswR9g"target="_blank">L01 Introduction to Enterprise Software Part 3</a>
+<a href="https://www.youtube.com/watch?v=5s0udbE6gQs"target="_blank">L01 Introduction to Enterprise Software Part 4</a>
+<a href="http://youtu.be/SQvnjS3P540"target="_blank">L01 Introduction to Enterprise Software Part 5</a>
+<a href="https://www.youtube.com/watch?v=NZhnDXZQch0"target="_blank">L02 What is Software Architecture Part 1</a>
+<a href="https://www.youtube.com/watch?v=zXGJqLJt6ts"target="_blank">L02 What is Software Architecture Part 2</a>
+<a href="https://www.youtube.com/watch?v=RhGrAprqzfU"target="_blank">L02 What is Software Architecture Part 3</a>
+<a href="https://www.youtube.com/watch?v=JRkIWbUpLfI"target="_blank">L02 What is Software Architecture Part 4</a>
+<a href="https://www.youtube.com/watch?v=lqTSECP0yBs"target="_blank">L02 What is Software Architecture Part 5</a>
+<a href="https://www.youtube.com/watch?v=UfPVKAp9490"target="_blank">L02 What is Software Architecture Part 6</a>
+<a href="https://www.youtube.com/watch?v=Yr9z4J_NyaQ"target="_blank">L03 Software Design Part 1</a>
+<a href="https://www.youtube.com/watch?v=CFHHp4_RkuA"target="_blank">L03 Software Design Part 2</a>
+<a href="https://www.youtube.com/watch?v=H7qNFjOEBBs"target="_blank">L03 Software Design Part 3</a>
+<a href="https://www.youtube.com/watch?v=M2dwBoImi7c"target="_blank">L04 Software Design Examples Part 1</a>
+<a href="https://www.youtube.com/watch?v=YesNyvX2RUg"target="_blank">L04 Software Design Examples Part 2 </a>
+<a href="https://www.youtube.com/watch?v=FheZdZ_fofQ"target="_blank">L04 Software Design Examples Part 3</a>
+<a href="https://www.youtube.com/watch?v=fvVhpg1JYsE"target="_blank">L04 Aukatími um skilaverkefni 1</a>
+<a href="https://www.youtube.com/watch?v=0TPclqpv7Ew"target="_blank">L05 Design Patterns Part 1</a>
+<a href="https://www.youtube.com/watch?v=2oWLGSKmhqc"target="_blank">L05 Design Patterns Part 2</a>
+<a href="https://www.youtube.com/watch?v=XFy9JBSNX6g"target="_blank">L05 Design Patterns Part 3</a>
+<a href="https://www.youtube.com/watch?v=RTv3Xf1XBrI"target="_blank">L05 Design Patterns Part 4</a>
+<a href="https://www.youtube.com/watch?v=FXupBdLxpVE&feature=youtu.be"target="_blank">L06 Using Design Patterns</a>
+<a href="https://www.youtube.com/watch?v=mh3ki1jW1Ag"target="_blank">L07 Frameworks Part 1</a>
+<a href="https://www.youtube.com/watch?v=cpwfndRnimA"target="_blank">L07 Frameworks Part 2</a>
+<a href="http://youtu.be/Iy1xVOBHRR0"target="_blank">L08 Unit Testing</a>
+<a href="https://www.youtube.com/watch?v=Or9hLpt8Y0s"target="_blank">L09 Process Design Part 1</a>
+<a href="https://www.youtube.com/watch?v=iJGyevzAYP4"target="_blank">L09 Process Design Part 2</a>
+<a href="https://www.youtube.com/watch?v=PxQahRv-kX4"target="_blank">L09 Process Design Part 3</a>
+<a href="https://www.youtube.com/watch?v=wNFxEJmsszk"target="_blank">L09 Process Design Part 4</a>
+<a href="http://youtu.be/CX6cPJ2kbcE"target="_blank">L10 Architecture Considerations Part 1</a>
+<a href="http://youtu.be/HM7Tc8cIW5A"target="_blank">L10 Architecture Considerations Part 2</a>
+<a href="http://youtu.be/0vDbz959A7c"target="_blank">L11 Service Design and REST Part 1</a>
+<a href="http://youtu.be/jbYJWOVcKwY"target="_blank">L11 Service Design and REST Part 2</a>
+<a href="https://www.youtube.com/watch?v=LNjivEaMtc4"target="_blank">L12 Visualising Architecture</a>
+<a href="https://www.youtube.com/watch?v=mDcxHm0_F2k"target="_blank">L13 Presentation Layer Design Part 1</a>
+<a href="https://www.youtube.com/watch?v=4ooEKZ4mk2A"target="_blank">L13 Presentation Layer Design Part 2</a>
+<a href="https://www.youtube.com/watch?v=c8der7yJZsM"target="_blank">L13 Presentation Layer Design Part 3</a>
+<a href="https://www.youtube.com/watch?v=tbV6uLbfkgo"target="_blank">L13 Presentation Layer Design Part 4</a>
+<a href="https://www.youtube.com/watch?v=aRU_pVG2m1s&feature=youtu.be"target="_blank">L14 Presentation Layer Example</a>
+<a href="http://youtu.be/e712n6UQqlk"target="_blank">L15 Organising Domain Layer Part 1</a>
+<a href="http://youtu.be/DOzrjKNmOdY"target="_blank">L15 Organising Domain Layer Part 2</a>
+<a href="https://youtu.be/LSAOjVN8rxI"target="_blank">L16 Documenting Software</a>
+<a href="https://youtu.be/nD3AuGX7jTI"target="_blank">L17 Data Source Layer Part 1</a>
+<a href="https://youtu.be/KEjtvsrmGPY"target="_blank">L17 Data Source Layer Part 2</a>
+<a href="https://youtu.be/KUMUoXqlPnU"target="_blank">L17 Data Source Layer Part 3</a>
+<a href="https://youtu.be/2NpXUJOtbIc"target="_blank">L17 Data Source Layer Part 4</a>
+<a href="https://www.youtube.com/watch?v=fzX3PTH93fg&feature=youtu.be"target="_blank">L18 Object Relational Mapping</a>
+<a href="https://www.youtube.com/watch?v=ITI-wbwyqUo"target="_blank">L19 Application Architecture Part 1</a>
+<a href="https://www.youtube.com/watch?v=HKJLVY-e86M"target="_blank">L19 Application Architecture Part 2</a>
+<a href="https://www.youtube.com/watch?v=OkL8o7EapzA"target="_blank">L20 Scalability Part 1</a>
+<a href="https://www.youtube.com/watch?v=Atur990cOB0"target="_blank">L20 Scalability Part 2</a>
+<a href="https://www.youtube.com/watch?v=MtOmEWOaVXw"target="_blank">L20 Scalability Part 3</a>
+<a href="https://www.youtube.com/watch?v=XlSHiAHaI6Q"target="_blank">L20 Scalability Part 4</a>
+<a href="https://www.youtube.com/watch?v=FZ8Imc-oPnA"target="_blank">L20 Scalability Part 5</a>
+<a href="https://youtu.be/pIe6OvygsOw"target="_blank">L21 Architecture and Agile Part 1</a>
+<a href="https://youtu.be/6WdzMoBPnfo"target="_blank">L21 Architecture and Agile Part 2</a>
+<a href="https://youtu.be/WIQFWfukxo4"target="_blank">L22 Design Principles</a>
+<a href="https://youtu.be/hGJeQ7--gww"target="_blank">L23 Summary and Conclusions Part 1</a>
+<a href="https://youtu.be/rXk9o03epYk"target="_blank">L23 Summary and Conclusions Part 2</a>
